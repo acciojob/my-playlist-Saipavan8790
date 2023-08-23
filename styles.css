@@ -32,8 +32,14 @@ h2 {
 	border: 1px solid black;
 	border-radius: 10px;
 	padding: 20px;
+	margin: 50px;
 }
 #audio {
-display: flex;
-	width: 100vh;
+	display: flex;
+	width: 100%;
+}
+@media (max-width: 767px) {
+	body {
+		background-color: skyblue;
+	}
 }
